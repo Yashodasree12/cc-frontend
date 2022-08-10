@@ -1,0 +1,124 @@
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+  }  
+
+.padding {
+    padding: 0.5rem !important
+}
+
+.user-card-full {
+    overflow: hidden;
+}
+
+#profCard {
+    padding: 25px;
+    margin-top: 70px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(92, 137, 192, 0.452);
+    box-shadow: 0 1px 20px 0 rgba(127, 128, 150, 0.555);
+    border: 0;
+    background-color: #929292b6;
+}
+.m-r-0 {
+    margin-right: 0px
+}
+
+.m-l-0 {
+    background-color:white;
+    margin-left: 0px
+}
+
+.user-card-full .user-profile {
+    border-radius: 5px 0 0 5px;}
+
+.bg-c-lite-green {
+    background-color: #181818d2;
+}
+
+.user-profile {
+    padding: 20px 0;
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.m-b-25 {    
+    margin-bottom: 25px
+}
+
+.img-radius {
+    border-radius: 5px
+}
+
+h6 {
+    font-size: 14px
+}
+
+.card .card-block p {
+    line-height: 25px
+}
+
+@media only screen and (min-width: 1400px) {
+    p {
+        font-size: 14px
+    }
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.card .card-block p {
+    line-height: 20px
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.text-muted {
+    color: #546a81 !important
+}
+
+.b-b-default {
+    border-bottom: 1px solid #0c001b
+}
+
+.f-w-600 {
+    font-weight: 600
+}
+
+.m-b-20 {
+    margin-bottom: 20px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important
+}
+
+.m-b-10 {
+    margin-bottom: 10px
+}
+
+.m-t-40 {
+    margin-top: 20px
+}
