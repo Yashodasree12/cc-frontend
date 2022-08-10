@@ -16,19 +16,19 @@
 
 steps:
 - id: "Install dependencies"
-  name: "node:14.17.3"
+  name: "node:14.16.0"
   dir: './react-app/'
   entrypoint: npm
   args: ['install']
 
 - id: "Run tests"
-  name: "node:14.17.3"
+  name: "node:14.16.0"
   dir: './react-app/'
   entrypoint: npm
   args: ['test']
 
 - id: "Run custom commands"
-  name: "node:14.17.3"
+  name: "node:14.16.0"
   dir: './react-app/'
   entrypoint: npm
   args: ['run', 'build']
@@ -37,5 +37,5 @@ steps:
   name: "gcr.io/cloud-builders/gcloud"
   dir: './react-app/'
   args: ["app", "deploy"]
-  timeout: "1600s"
+  timeout: "5000s"
 

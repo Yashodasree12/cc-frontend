@@ -1,5 +1,5 @@
-runtime: nodejs14
-service: bonds-webapp
+runtime: nodejs12
+service: pets-webapp
 handlers:
 # Serve all static files with url ending with a file extension
 - url: /(.*\..+)$

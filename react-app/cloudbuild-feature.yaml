@@ -14,19 +14,19 @@
 
 steps:
 - id: "Install dependencies"
-  name: "node:14.17.3"
+  name: "node:14.16.0"
   dir: './react-app/'
   entrypoint: npm
   args: ['install']
 
 - id: "Run tests"
-  name: "node:14.17.3"
+  name: "node:14.16.0"
   dir: './react-app/'
   entrypoint: npm
   args: ['test']
 
 - id: "Run custom commands"
-  name: "node:14.17.3"
+  name: "node:14.16.0"
   dir: './react-app/'
   entrypoint: npm
   args: ['run', 'build']
