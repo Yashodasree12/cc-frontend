@@ -15,18 +15,18 @@
 steps:
 - id: "Install dependencies"
   name: "node:14.17.3"
-  dir: './CC-FRONTEND-MAIN/'
+  dir: './react-app/'
   entrypoint: npm
   args: ['install']
 
 - id: "Run tests"
   name: "node:14.17.3"
-  dir: './CC-FRONTEND-MAIN/'
+  dir: './react-app/'
   entrypoint: npm
   args: ['test']
 
 - id: "Run custom commands"
   name: "node:14.17.3"
-  dir: './CC-FRONTEND-MAIN/'
+  dir: './react-app/'
   entrypoint: npm
   args: ['run', 'build']

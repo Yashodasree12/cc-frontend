@@ -46,25 +46,25 @@ Latest commit 70bc9e7 7 days ago
 steps:
 - id: "Install dependencies"
   name: "node:14.17.3"
-  dir: './CC-FRONTEND-MAIN/'
+  dir: './react-app/'
   entrypoint: npm
   args: ['install']
 
 - id: "Run tests"
   name: "node:14.17.3"
-  dir: './CC-FRONTEND-MAIN/'
+  dir: './react-app/'
   entrypoint: npm
   args: ['test']
 
 - id: "Run custom commands"
   name: "node:14.17.3"
-  dir: './CC-FRONTEND-MAIN/'
+  dir: './react-app/'
   entrypoint: npm
   args: ['run', 'build']
 
 - id: "Deploy the App"
   name: "gcr.io/cloud-builders/gcloud"
-  dir: './CC-FRONTEND-MAIN/'
+  dir: './react-app/'
   args: ["app", "deploy"]
   timeout: "1600s"
 Footer
